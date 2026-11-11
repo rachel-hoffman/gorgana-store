@@ -43,7 +43,7 @@
 
 
 body{
-    background-color: #3d3b52;
+    background-color: #270058;
     color:white;
     /* font-family: 'Geist Mono', monospace; font-weight: 400; */
 }
@@ -71,7 +71,7 @@ body{
     margin-top:0px;
   }
  .purpleBox{
-    background-image:linear-gradient(to right, #7f36a679, #4b246673);
+    background-image:linear-gradient(to right, #8338ec79, #8338ec73);
     width:fit-content;
     height:50px;
     display:flex;
@@ -116,7 +116,7 @@ a {
   transition: transform 0.2s ease;
 }
   .iconPlaceholder .tooltip {
-  background-image:linear-gradient(to right, #612880, #39194fbd);
+  background-image:linear-gradient(to right, #8338ec78, #8338ec73);
   width:fit-content;
   height:60px;
   display:flex;
