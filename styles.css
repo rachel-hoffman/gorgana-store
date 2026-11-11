@@ -23,6 +23,7 @@
   flex-direction:column;
   align-items: center;
   justify-content: center;
+  padding: 50px;
 }
 
 /* .headerdiv{...} */
@@ -35,7 +36,11 @@
 }
 
 .logolarge{
-  max-width: 80px;
+  width: 80px;
+}
+
+.homeicon{
+  width: 30px;
 }
 
 /* .notetext{} */
