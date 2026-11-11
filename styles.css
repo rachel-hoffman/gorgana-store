@@ -111,7 +111,7 @@ a {
   display:flex;
   align-items: center;
   justify-content: center;
-  height: 45px;
+  /* height: 45px; */
   position: relative; /* so tooltip positions relative to this box */
   display: inline-flex;
   transition: transform 0.2s ease;
@@ -155,7 +155,7 @@ a {
   }
 
 .icon{
-  height:80px;
+  height:30px;
   width:auto;
   /* image-rendering: pixelated; */
 }
