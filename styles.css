@@ -30,8 +30,8 @@
 .titlediv{
   display:flex;
   flex-direction:row;
-  align-items: left;
-  justify-content: center;
+  /* align-items: left;
+  justify-content: center; */
 }
 
 .logolarge{
