@@ -1,0 +1,203 @@
+
+/* General */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 8px 6px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+
+    /* Dotted background */
+    background-image: radial-gradient(#e5e5e5 1px, transparent 1px);
+    background-size: 6px 6px;
+}
+
+/* Main Page */
+.page-container {
+    width: 455px;
+    max-width: 100%;
+    min-height: 564px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #25004d;
+    border: 1px solid #111;
+    color: white;
+}
+
+/* Navigation */
+.navbar {
+    height: 37px;
+    min-height: 37px;
+    padding: 0 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #400080;
+    border-bottom: 1px solid #111;
+}
+
+.nav-logo {
+    font-size: 25px;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    gap: 34px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px 0;
+}
+
+/* Hero Section */
+.hero {
+    width: 80%;
+    border: 1px solid white;
+    padding: 8px 6px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+
+    border: 1px solid white;
+    font-size: 40px;
+    line-height: 1;
+}
+
+.brand-icon {
+    margin-left: 8px;
+    font-size: 40px;
+    color: white;
+}
+
+.tagline {
+    margin: 8px 0 0;
+    font-size: 19px;
+}
+
+/* Call to Action */
+.cta-button {
+    margin-top: 15px;
+    padding: 10px 12px;
+
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+
+    background: linear-gradient(110deg, #8736f2, #5e18a9);
+    border: 1px solid #111;
+    border-radius: 11px;
+}
+
+/* Disclaimer */
+.disclaimer {
+    width: 80%;
+    margin-top: 15px;
+    padding: 10px 5px;
+
+    border: 1px solid white;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/* Collections */
+.collections {
+    width: 80%;
+    margin-top: 56px;
+    padding: 11px 18px 19px;
+
+    background-color: #8032ed;
+    text-align: center;
+}
+
+.collections h2 {
+    margin: 0 0 9px;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.collection-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.collection-card {
+    width: 80px;
+    height: 68px;
+
+    background-color: white;
+    border: 1px solid #111;
+    border-radius: 6px;
+}
+
+/* Footer */
+.footer {
+    height: 34px;
+    min-height: 34px;
+    padding: 0 15px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #8032ed;
+    border-top: 1px solid #111;
+}
+
+.footer small {
+    font-size: 8px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 0 12px;
+    }
+
+    .nav-links {
+        gap: 12px;
+    }
+
+    .main-content {
+        padding: 40px 0;
+    }
+
+    .brand {
+        font-size: 32px;
+    }
+
+    .brand-icon {
+        font-size: 32px;
+    }
+
+    .tagline {
+        font-size: 16px;
+    }
+
+    .collection-card {
+        width: 27%;
+        height: 65px;
+    }
+}
