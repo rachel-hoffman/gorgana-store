@@ -9,12 +9,13 @@
 } */
 
 /*define font styles*/
-@font-face {
+/* @font-face {
   font-family: 'Geist Mono';
   font-style: normal;
   font-weight: 100 900;
   src: url('./fonts/GeistMono-VariableFont_wght.ttf') format('truetype');
-}
+} */
+
 
 
 
