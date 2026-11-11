@@ -232,7 +232,7 @@ a {
       position: absolute;
       align-content: center;
       width:100%;
-      background-color: ##270058;
+      background-color: #270058;
       border-bottom:2px black solid;
       padding:10px;
       display:flex;
@@ -308,7 +308,7 @@ a {
   display:flex;
   align-items: center;
   justify-content: center;
-  background-color: #2f263b;
+  background-color: #270058;
   margin-left:auto;
   padding:5px;
   border-radius: 8px;
@@ -577,11 +577,7 @@ p.aboutMe {
   /* font-family: 'Courier New', monospace; */
   margin-bottom: 1rem;
 }
-div.aboutMe{
-  background-color: red;
-  
 
-}
 #extra{
   min-width:90vw;}
 #paddingAdd{
@@ -803,7 +799,7 @@ fill:#ffffff;stroke:transparent;
 
 /*Remember to make a light mode version of this!!*/
 .taskBar{
-  background-color: #1b1a24;
+  background-color: red;
   height:65px;width:100%;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
