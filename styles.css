@@ -22,22 +22,22 @@
 body{
     background-color: #3d3b52;
     color:white;
-    font-family: 'Geist Mono', monospace; font-weight: 400;
+    /* font-family: 'Geist Mono', monospace; font-weight: 400; */
 }
   h2{
     font-size: 3rem;
     padding-top:80px;
-    font-family: 'Geist Mono', monospace; font-weight: 400;
+    /* font-family: 'Geist Mono', monospace; font-weight: 400; */
   }
   p{
-    font-family: 'Geist Mono', monospace; font-weight: 400;
+    /* font-family: 'Geist Mono', monospace; font-weight: 400; */
   }
   .para{
     max-width:80vw;
     text-align: left;
   }
   .tooltip{
-    font-family: 'Geist Mono', monospace; font-weight: 400;
+    /* font-family: 'Geist Mono', monospace; font-weight: 400; */
     z-index: 12; /* stays above main */
     position: absolute; /* instead of absolute */
   top: 100px; /* adjust as needed */
@@ -88,14 +88,12 @@ a {
   flex-direction:row;
   align-items: center;
   justify-content: center;
-  font-size:14px;
   color:white;
   stroke:white;
   fill:white;
   padding: 10px;
   border-radius:10px;
   margin-top:12px;
-  font-size:1rem;
   margin-bottom: 10vh;
   font-size: 1.1rem;
 }
@@ -567,74 +565,6 @@ body.light-mode .taskBarImg{
 
 
 
-
-
-
-
-/**ChatGPT's hat syles*/
-
-/* --- Halloween Hat Styles --- */
-.halloweenImg {
-  width:120px;
-}
-.halloween-hat {
-  position: absolute; /* instead of absolute */
-  top: 60px; /* adjust as needed */
-  left: 120px;
-  z-index: 10; /* stays above main */
-}
-
-.halloween-hat img {
-  image-rendering: pixelated;
-  transition: transform 0.2s ease;
-}
-
-.halloween-hat:hover img {
-  transform: rotate(-10deg) scale(1.05);
-}
-
-/* Tooltip bubble */
-.halloween-hat .tooltip {
-    background-image:linear-gradient(to right, #7f36a6aa, #4b24669c);
-    width:fit-content;
-    height:50px;
-    display:flex;
-    flex-direction:row;
-    align-items: center;
-    justify-content: center;
-    font-size:14px;
-    color:white;
-    padding: 10px;
-    border-radius:10px;
-    margin-top:12px;
-    font-size:1rem;
-
-    position: absolute;
-    top: -40px;
-    left: 50%;
-    transform: translateX(-50%);
-    white-space: nowrap;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.25s ease, top 0.25s ease;
-    z-index: 20;
-}
-
-.halloween-hat:hover .tooltip {
-  opacity: 1;
-  top: 115px;
-}
-#halloween{
-  position: fixed;
-  top: 60px;
-  transition: opacity 0.1s ease;
-
-}
-
-
-
-
-
 /*image placeholder*/
 .imageTitle{
   row-gap:2vh;
@@ -682,11 +612,11 @@ imagesDiv{
 }
 h3{
   text-align: center;
-  font-family: 'Geist Mono', monospace; font-weight: 400;
+  /* font-family: 'Geist Mono', monospace; font-weight: 400; */
   font-size: 2rem;
 }
 h4{
-  font-family: 'Geist Mono', monospace; font-weight: 400;
+  /* font-family: 'Geist Mono', monospace; font-weight: 400; */
   font-size: 1.5rem;
 }
 
@@ -814,7 +744,7 @@ h4{
   transition: opacity 0.3s ease;
   pointer-events: none;
   text-align: left;
-  font-family: 'Courier New', monospace;
+  /* font-family: 'Courier New', monospace; */
 }
 
 /* On hover */
@@ -882,7 +812,7 @@ p.aboutMe {
   font-size: 1.15rem;
   line-height: 1.6;
   color: #eaeaea;
-  font-family: 'Courier New', monospace;
+  /* font-family: 'Courier New', monospace; */
   margin-bottom: 1rem;
 }
 div.aboutMe{
@@ -958,93 +888,6 @@ a{
   color:#0e0c3e;
   text-decoration: underline solid 2px #0e0c3e;
 }
-
-
-
-/*Bomb and hearts*/
-
-#hud {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  display: flex;
-  gap: 10px;
-  z-index: 10;
-}
-
-#hearts img {
-  width: 40px;
-}
-
-#bomb {
-  cursor: pointer;
-}
-
-#explosion-overlay {
-  position: fixed;
-  inset: 0;
-  background-color: transparent; /*was black-- replace with gif!*/
-  display: none; /* hidden until bomb is clicked */
-  justify-content: center;
-  align-items: center;
-  z-index: 20;
-}
-#explosion-gif{
-  image-rendering: pixelated;
-}
-#explosion-overlay img {
-  width: 60%;
-}
-
-#death-screen {
-  position: fixed;
-  inset: 0;
-  background-color: rgba(0,0,0,0.8);
-  color: white;
-  display: none; /* hidden until dead */
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  z-index: 30;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-#respawn-btn {
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-family: inherit;
-  cursor: pointer;
-}
-
-
-.lose-heart {
-  animation: blink 0.3s steps(2, start) 3; /* 3 blinks */
-}
-
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
-}
-
-header.header {
-  position: fixed;
-
-width:100%}
-
-
-
-.subheading{
-  font-family: 'Geist Mono', monospace; font-weight: 400;
-}
-.para{
-font-family: 'Geist Mono', monospace; font-weight: 400;
-}
-.skillsList{
-  font-family: 'Geist Mono', monospace; font-weight: 400;
-}
-
-
-
 
 
 /*1/2/2026 UPDATES*/
